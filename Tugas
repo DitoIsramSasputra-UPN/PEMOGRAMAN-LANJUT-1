@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 struct game {
 	char *nama; 
 	int tahun;
@@ -10,23 +11,23 @@ struct game {
 void main()
 {
 	struct game game1, game2, game3, game4, game5;
-	
+	//
 	game1.nama = "Red Dead Redemption II";
 	game1.tahun= 2018;
 	game1.developer= "Rockstar Games";
-
+	//
 	game2.nama = "Grand Theft Auto V";
 	game2.tahun= 2014;
 	game2.developer= "Rockstar Games";
-	
+	//
 	game3.nama = "The Legend Of Zelda: Breath Of The Wild";
 	game3.tahun= 2017;
 	game3.developer= "Nintendo";
-	
+	//
 	game4.nama = "Super Mario Odyssey";
 	game4.tahun= 2017;
 	game4.developer= "Nintendo";
-	
+	//
 	game5.nama = "Batman: Arkham City";
 	game5.tahun= 2011;
 	game5.developer= "Rocksteady Studios";
@@ -36,22 +37,22 @@ void main()
 	printf("1. %s\n", game1.nama);
 	printf("   %d\n", game1.tahun);
 	printf("   %s\n", game1.developer);
-	
+	//
 	printf("2. %s\n", game2.nama);
 	printf("   %d\n", game2.tahun);
 	printf("   %s\n", game2.developer);
-	
+	//
 	printf("3. %s\n", game3.nama);
 	printf("   %d\n", game3.tahun);
 	printf("   %s\n", game3.developer);
-	
+	//
 	printf("4. %s\n", game4.nama);
 	printf("   %d\n", game4.tahun);
 	printf("   %s\n", game4.developer);
-	
+	//
 	printf("5. %s\n", game5.nama);
 	printf("   %d\n", game5.tahun);
 	printf("   %s\n", game5.developer);
-	
+	//
 	getch();
 }
